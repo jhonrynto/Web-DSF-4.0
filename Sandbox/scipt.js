@@ -1,0 +1,1 @@
+let curtain = document.querySelector

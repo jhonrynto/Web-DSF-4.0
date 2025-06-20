@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+}
+
+section {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.title {
+    color: white;
+    font-size: 32px;
+    padding: 20px;
+}
+
+.section1 {
+    height: 200vh;
+    background-image: url('Image/img1.png');
+}
+
+.section2 {
+    padding: 10px;
+    padding-bottom: 30%;
+    background-image: url('Image/img2.png');
+}
+
+.wrapper {
+    position: relative;
+    border-radius: 16px;
+    padding: 3% ;
+    gap: 20px 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #faf6f6;
+    margin: 20px;
+}
+
+.card {
+    color: #0111;
+    width: 49%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    padding-bottom: 4px;
+    transition: 0.2s;
+}
+
+.card:hover img {
+    transform: scale(1.03);
+    padding-bottom: 10px;
+}
+
+.card figcaption {
+    color: black;
+    transition: 0.3s;
+}
+
+.card:hover figcaption {
+    color: black;
+}
+
+.section3 {
+    padding: 10%;
+    background-image: url(./Image/img1.png);
+}
+
+.contact {
+    width: 45%;
+    padding-bottom: 50px;
+}
+
+.mapouter {
+    overflow: hidden;
+    background: none !important;
+}
+
+.gmap_canvas {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gmap_iframe {
+    width: 100% !important;
+    height: 400px !important;
+}
+
+.curtain h1.mobile {
+    display: none;
+}
+
+.curtain h1, h2 {
+    text-transform: uppercase;
+}
+
+.curtain h2 {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.curtain h1 {
+    line-height: 1;
+    font-size: 12em;
+    font-weight: 900;
+    background-image: url(/img1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: text;
+    color: transparent;
+}
+
+.curtain {
+    position: fixed;
+    left: 0;    
+    top: 0;
+    width: 100;
+    height: 100;
+    z-index: 1;
+    background-color: #faf6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+}
